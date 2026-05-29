@@ -1,0 +1,28 @@
+# Large binary files
+*.pdb
+*.pdbqt
+*.pkl
+*.pt
+*.npy
+*.exe
+*.msi
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Outputs (keep in data/ only small CSV/JSON files)
+results/tcm/docking/docking_output/
+results/tcm/docking/receptors/
+results/tcm/docking/receptors_clean/
+results/tcm/docking/ligands/
+results/tcm/docking/ligand_pdbqt*/
+results/tcm/figures/
+results/tcm/tables/
+results/tcm/md_simulation/*/
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
